@@ -21,7 +21,7 @@ const Home = ({ restaurants }) => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
         <div className="container px-4 px-lg-5">
           <a className="navbar-brand" href="/">
-            Restaurant
+            <b>RESTAURANT</b>
           </a>
           <button
             className="navbar-toggler"
@@ -50,7 +50,7 @@ const Home = ({ restaurants }) => {
             onChange={function (e) {
               find(e);
             }}
-            className="form-control me-2"
+            className="form-control me-2 text-center"
             type="search"
             placeholder="Search"
             aria-label="Search"
@@ -61,11 +61,11 @@ const Home = ({ restaurants }) => {
         </form>
       </nav>
       {/* Header*/}
-      <header className="bg-dark py-5">
+      <header className="bg-light py-5">
         <div className="container px-4 px-lg-5 my-5">
-          <div className="text-center text-white">
+          <div className="text-center text-black">
             <h1 className="display-4 fw-bolder">RESTAURANT</h1>
-            <p className="lead fw-normal text-white-50 mb-0">
+            <p className="lead fw-normal text-black-50 mb-0">
               Высококлассный ресторан.Некоторые люди называют вкусным и
               изысканным. Мы считаем национальным местом.
             </p>
@@ -120,7 +120,7 @@ const Home = ({ restaurants }) => {
         </div>
       </section>
       {/* Footer*/}
-      <footer className="py-5 bg-dark">
+      <footer className="py-5 bg-secondary">
         <div className="container">
           <p className="m-0 text-center text-white">
             Copyright © Faturrohman09 2023
